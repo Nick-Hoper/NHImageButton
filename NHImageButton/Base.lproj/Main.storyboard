@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Byw-JE-bct">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="61K-TJ-24b">
+            <objects>
+                <viewController id="Byw-JE-bct" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AU3-BE-fmC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5I-uJ-HqR" customClass="NHImageButton" customModule="NHImageButton" customModuleProvider="target">
+                                <rect key="frame" x="30" y="208.5" width="315" height="250"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="yS1-t9-1L2"/>
+                                </constraints>
+                                <state key="normal" title="可以设置间距" image="test">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G5I-uJ-HqR" firstAttribute="centerY" secondItem="AU3-BE-fmC" secondAttribute="centerY" id="CP1-3i-3Nb"/>
+                            <constraint firstItem="yRK-io-GkD" firstAttribute="trailing" secondItem="G5I-uJ-HqR" secondAttribute="trailing" constant="30" id="Co1-fO-7IP"/>
+                            <constraint firstItem="G5I-uJ-HqR" firstAttribute="leading" secondItem="yRK-io-GkD" secondAttribute="leading" constant="30" id="tUz-wU-bBS"/>
+                            <constraint firstItem="G5I-uJ-HqR" firstAttribute="centerX" secondItem="AU3-BE-fmC" secondAttribute="centerX" id="xiX-lT-0tE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yRK-io-GkD"/>
+                    </view>
+                    <connections>
+                        <outlet property="testButton" destination="G5I-uJ-HqR" id="ioY-3n-mJP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHD-f6-4UP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test" width="200" height="200"/>
+    </resources>
+</document>
