@@ -5,7 +5,7 @@
 可以自由设置图片在按钮中显示的方向，提供上、下、左、右四个方向，并且提供图片与标题间的间距设置。
 
 
-![1.png](https://github.com/Nick-Hoper/NHImageButton/blob/master/1.png)
+![1.png](https://github.com/Nick-Hoper/NHImageButton/blob/master/1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
 
 ![2.png](https://github.com/Nick-Hoper/NHImageButton/blob/master/2.png)
 
